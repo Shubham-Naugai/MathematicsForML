@@ -1,11 +1,5 @@
+%% A zoo of matrices
 %%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Introduction to matrices
-%      VIDEO: A zoo of matrices
-% Instructor: sincxpress.com
-%
-%%
-
 % square vs. rectangular
 S = randn(5);
 S = randn(5,5);
@@ -32,12 +26,7 @@ C = [ A B ];
 
 %%
 
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Introduction to matrices
-%      VIDEO: Matrix addition and subtraction
-% Instructor: sincxpress.com
-%
+%% Matrix addition and subtraction
 %%
 
 % create random matrices
@@ -61,12 +50,7 @@ Ds = D + l*eye(N);
 
 %%
 
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Introduction to matrices
-%      VIDEO: Matrix-scalar multiplication
-% Instructor: sincxpress.com
-%
+%% VIDEO: Matrix-scalar multiplication
 %%
 
 M = [1 2; 2 5];
@@ -79,12 +63,7 @@ s*M
 
 %%
 
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Introduction to matrices
-%      VIDEO: Transpose
-% Instructor: sincxpress.com
-%
+%% VIDEO: Transpose
 %%
 
 M = [ 1 2 3; 2 3 4 ];
@@ -101,12 +80,7 @@ C.'
 
 %%
 
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Introduction to matrices
-%      VIDEO: Diagonal and trace
-% Instructor: sincxpress.com
-%
+%% VIDEO: Diagonal and trace
 %%
 
 M = round( 5*randn(4) );
@@ -125,12 +99,7 @@ tr2 = sum( diag(M) );
 
 %%
 
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Introduction to matrices
-%      VIDEO: Broadcasting matrix arithmetic
-% Instructor: sincxpress.com
-%
+%% VIDEO: Broadcasting matrix arithmetic
 %%
 
 % create a matrix
@@ -153,11 +122,5 @@ bsxfun(@plus,A,c)
 % the non-mathy way
 A + r
 A + c
-
 %%
-
-
 %% end.
-
-% Interested in more courses? See sincxpress.com 
-% Use code MXC-DISC4ALL for the lowest price for all courses.
